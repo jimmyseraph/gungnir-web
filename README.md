@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Gungnir App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,11 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -39,8 +34,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Config App
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can change config by edit `Config.tsx` file in `src` directory.
+Change `mock` value to enable or disable jsmock. If the varaiable mock is set to false, this app need to connect to the real backend service.
+Change `allowSignUp` value to enable or disable the custom sign up the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Connect to real backend service
+
+Backend service is available in another repository. 
