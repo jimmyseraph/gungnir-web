@@ -43,4 +43,4 @@ Change `allowSignUp` value to enable or disable the custom sign up the app.
 
 ## Connect to real backend service
 
-Backend service is available in another repository. 
+Backend service is available in [Gungnir Service](https://github.com/jimmyseraph/gungnir-service). 
